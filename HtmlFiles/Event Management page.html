@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Events Management</title>
+<style>
+<style type="text/css">
+input[name=Add] {
+color: green;	
+}
+input[name=remove] {
+color: red;
+}
+td{
+color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;}
+table th	{
+    background-color:red;
+    color: black;
+}
+</style>
+</head>
+
+<body >
+
+<body bgcolor="black">
+<table style="width:100%">
+
+<caption>Events Managment</caption>
+
+<tr>
+    <th>Event number</th>
+    <th>Adress</th>
+    <th>Partners</th> 
+    <th>Type</th>
+   
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><address>
+         USA
+        Box 564, Disneyland
+        </address></td>  
+    <td>tom,sam,george</td>
+    <td><select name="select">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><address>
+         USA
+        Box 564, Disneyland
+        </address></td>  
+    <td>sam,tom,mike</td>
+    <td><select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><address>
+         USA
+        Box 564, Disneyland
+        </address></td>    
+    <td>david,george,rami</td>
+    <td><select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><address>
+         USA
+        Box 564, Disneyland
+        </address></td>  
+    <td>kevin,smith,mike</td>
+   <td><select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><address>
+         USA
+        Box 564, Disneyland
+        </address></td>    
+    <td>george,keven,donald</td>
+    <td><select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select></td>
+  </tr>
+</table>
+
+<a href="Adding an event page.html"><input  style=" margin-bottom: -100px;color: green;" type="button" value="Add Event" name="Add"></a>
+<input  style="margin-bottom: -100px" type="button" value="Remove Event" name="remove">
+</body>
+</html>

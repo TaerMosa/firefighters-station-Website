@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Event</title>
+<style type="text/css">
+ body {
+	background: black;
+}
+
+h6 {
+	color: white;
+}
+
+td {
+	color: red;
+	font-size: 20px;
+}
+
+input  {
+	padding-left: 10px;
+	margin: 10px;
+	margin-top: 12px;
+	margin-left: 18px;
+	width: 200px;
+	height: 20px;
+	border: 3px solid;
+	border-color: blue;
+	border-radius: 30px;
+	font-size: 11px;
+}
+
+input[type=Submit] {
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+	width: 90px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	border: 1px solid;
+	background-color: purple;
+}
+
+
+
+img[name=firegate] {
+	width: 500px;
+	height: 500px;
+	margin-left: 650px;
+	margin-top: -600px;
+}
+
+h1 {
+	color: highlight;
+	margin-left: 200px;
+}
+select{
+padding-left: 10px;
+	margin: 10px;
+	margin-top: 12px;
+	margin-left: 27px;
+	width:200px;
+	height:30px;
+	border: 3px solid;
+	border-color: blue;
+	font-size:20px;
+}
+a{
+color: black;
+}
+</style>
+</head>
+<body>
+	<form id="form1" name="form1" method="post" action="Register.aspx">
+	
+		<h1>Add New Event</h1>
+		<table>
+			<tr>
+				<td>Place:</td>
+				<td><input type="text" name="userName" /></td>
+				<td><h6>(City,Street,Number)</h6></td>
+			</tr>
+			<tr>
+				<td>Fire Fighter 1:</td>
+				<td><select>
+						<option value="1">LOLO</option>
+						<option value="2">BOBO</option>
+						<option value="3">ZOZO</option>
+				</select></td>
+				<td><h6>(Fire Fighter list)</h6></td>
+			</tr>
+			<tr>
+				<td>Fire Fighter 2:</td>
+			<td><select>
+						<option value="1">LOLO</option>
+						<option value="2">BOBO</option>
+						<option value="3">ZOZO</option>
+				</select></td>
+				<td><h6>(Fire Fighter list)</h6></td>
+			</tr>
+			<tr>
+				<td>Fire Fighter 3:</td>
+				<td><select>
+						<option value="1">LOLO</option>
+						<option value="2">BOBO</option>
+						<option value="3">ZOZO</option>
+				</select></td>
+				<td><h6>(Fire Fighter list)</h6></td>
+			</tr>
+			<tr>
+				<td>Fire Fighting Responsible:</td>
+				<td><select>
+						<option value="1">Responsible1</option>
+						<option value="2">Responsible2</option>
+						<option value="3">Responsible3</option>
+				</select></td>
+				<td><h6>(Res Fire Fighter list)</h6></td>
+			</tr>
+			<tr>
+				<td>Event type:</td>
+			 <td><select name="select">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select></td>
+			<td><h6>(choose Event type list)</h6></td>
+			<tr>
+				<td colspan="2"><input  type="Submit" value="Add Event" /></td>
+			</tr>
+		</table>
+		<a href="Event Management page.html">
+<img width="100" height="50" src="pic/back.jpg"></a>
+		<img name="firegate" src="pic/fireleft.jpg">
+	</form>
+</body>
+</html>
