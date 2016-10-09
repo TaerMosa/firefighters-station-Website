@@ -8,7 +8,7 @@ public class mySqlConnection {
 	public static Connection connect(){
 		try{
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			return DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "1234");
+			return DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "YourRoot", "YourDBPass");
 		}
 		catch (Exception e){
 			return null;
